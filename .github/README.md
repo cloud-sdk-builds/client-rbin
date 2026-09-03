@@ -1,12 +1,12 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-rbin`](https://www.npmjs.com/package/@aws-sdk/client-rbin/v/3.1125.0).
+[`@aws-sdk/client-rbin`](https://www.npmjs.com/package/@aws-sdk/client-rbin/v/3.1126.0).
 
 Refer to the links below for detailed documentation:
 - All Services - [https://cloud-sdk-builds.github.io](https://cloud-sdk-builds.github.io/)
 - @aws-sdk/client-rbin - [https://cloud-sdk-builds.github.io/?sdk=client-rbin](https://cloud-sdk-builds.github.io/?sdk=client-rbin)
-- @aws-sdk/client-rbin v3.1125.0 - [https://cloud-sdk-builds.github.io/?sdk=client-rbin&version=3.1125.0](https://cloud-sdk-builds.github.io/?sdk=client-rbin&version=3.1125.0)
+- @aws-sdk/client-rbin v3.1126.0 - [https://cloud-sdk-builds.github.io/?sdk=client-rbin&version=3.1126.0](https://cloud-sdk-builds.github.io/?sdk=client-rbin&version=3.1126.0)
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -33,13 +33,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-rbin@3.1125.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-rbin@3.1126.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-0d9NFwx6wCLPJzy9AYHoP1QV2dmlCNdtJsdM7zvHDJ4NZfDJMIxbCHfAf9yQ+yLh
+sha384-F1KWH3SPwOGFNpSt5lj7ITLvr+K563qJt/toCJStB8Lbm+Zt7qauTfRRjTHUWBCH
 ```
 
 ### 📌 Latest Version
@@ -66,10 +66,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-rbin": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-rbin@3.1125.0/index.min.mjs"
+            "@aws-sdk/client-rbin": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-rbin@3.1126.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-rbin@3.1125.0/index.min.mjs": "sha384-0d9NFwx6wCLPJzy9AYHoP1QV2dmlCNdtJsdM7zvHDJ4NZfDJMIxbCHfAf9yQ+yLh"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-rbin@3.1126.0/index.min.mjs": "sha384-F1KWH3SPwOGFNpSt5lj7ITLvr+K563qJt/toCJStB8Lbm+Zt7qauTfRRjTHUWBCH"
         }
       }
 </script>
@@ -86,10 +86,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-rbin": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-rbin@3.1125.0/index.min.mjs"
+                        "@aws-sdk/client-rbin": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-rbin@3.1126.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-rbin@3.1125.0/index.min.mjs": "sha384-0d9NFwx6wCLPJzy9AYHoP1QV2dmlCNdtJsdM7zvHDJ4NZfDJMIxbCHfAf9yQ+yLh"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-rbin@3.1126.0/index.min.mjs": "sha384-F1KWH3SPwOGFNpSt5lj7ITLvr+K563qJt/toCJStB8Lbm+Zt7qauTfRRjTHUWBCH"
                     }
                   }
             </script>
@@ -156,7 +156,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.1125.0`)
+* Always pin to a specific version (`@3.1126.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -176,7 +176,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-rbin/blob/refs/tags/3.1125.0/LICENSE
+https://github.com/cloud-sdk-builds/client-rbin/blob/refs/tags/3.1126.0/LICENSE
 ```
 
 ---
